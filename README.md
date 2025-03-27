@@ -2,7 +2,7 @@
 
 **Tagline**: Your go-to marketplace for buying and selling bicycles.
 
-CycleWorks is a web application designed to connect bike enthusiasts by allowing users to browse, add, and explore bicycle listings with auto-calculated scores based on price and condition. This Minimum Viable Product (MVP) was built entirely solo by Prince Peter Ojezua (GitHub: PBrown0007) as part of my ALX portfolio project. As a beginner software engineering student with no prior experience, I created this from scratch between February and March 2025, hitting an 8/10 progress milestone by Week 2.
+CycleWorks is a web application designed to connect bike enthusiasts by allowing users to browse, add, and explore bicycle listings with auto-calculated scores based on price and condition. This Minimum Viable Product (MVP) was built entirely solo by Prince Peter Ojezua (GitHub: PBrown0007) as part of my ALX portfolio project. As a beginner software engineering student with no prior experience, I created this from scratch between February and March 2025.
 
 ---
 
