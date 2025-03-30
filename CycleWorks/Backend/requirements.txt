@@ -1,2 +1,4 @@
-Flask==2.3.3
-pymongo==4.6.2
+flask
+pymongo
+flask-cors
+gunicorn
