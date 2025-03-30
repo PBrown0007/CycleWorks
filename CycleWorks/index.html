@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CycleWorks</title>
+</head>
+<body>
+    <h1>Bike List</h1>
+    <img src="CycleWorks Main Image.png" alt="CycleWorks Image" style="max-width: 100%; height: auto;">
+    <table id="bikeTable">
+        <tr><th>Name</th><th>Price</th><th>Condition</th><th>Details</th></tr>
+    </table>
+    <p><a href="add.html">Add a Bike</a></p>
+    <script>
+        fetch("http://localhost:5000/bikes")
+            .then(response => response.json())
+            .then(bikes => {
+                const table = document.getElementById("bikeTable");
+                bikes.forEach(bike => {
+                    const row = table.insertRow();
+                    row.innerHTML = `<td>${bike.name}</td><td>$${bike.price}</td><td>${bike.condition}</td><td><a href="details.html?name=${bike.name}">View</a></td>`;
+                });
+            })
+            .catch(error => console.error("Error fetching bikes:", error));
+    </script>
+</body>
+</html>
