@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CycleWorks - Bike Marketplace</title>
+    <!-- Font Awesome CDN for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2E8B57; color: white; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 20px; text-decoration: none; font-size: 18px; }
+        #intro { text-align: center; padding: 40px; background: #F5F5F5; }
+        #intro img { max-width: 80%; height: auto; }
+        #features { padding: 40px; background: #FFF; }
+        .feature { margin: 30px 0; text-align: center; }
+        .feature img { max-width: 300px; height: auto; }
+        #about { padding: 40px; background: #F5F5F5; }
+        button { padding: 15px 30px; background: #FF4500; color: white; border: none; cursor: pointer; font-size: 16px; }
+        button:hover { background: #D93B00; }
+        h1 { font-size: 48px; margin: 10px 0; }
+        h2 { font-size: 32px; }
+        p { font-size: 18px; }
+        .social-icon { margin-right: 8px; font-size: 20px; }
+    </style>
+</head>
+<body>
+    <!-- Task 1: Intro Section -->
+    <header>
+        <nav>
+            <a href="#intro">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <section id="intro">
+        <img src="CYCLEWORKS IMAGE MAIN.jpg" alt="CycleWorks Cover">
+        <h1>CycleWorks</h1>
+        <p>Your one-stop marketplace for buying and selling bikes with ease.</p>
+        <button onclick="window.location.href='https://cycleworks-frontend.onrender.com/app.html'">Try CycleWorks Now</button>
+    </section>
+
+    <!-- Task 2: Feature Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="browse-bikes.jpg" alt="Browse Bikes">
+            <h3>Browse Bikes</h3>
+            <p>Explore a curated list of bikes with prices and conditions at your fingertips.</p>
+        </div>
+        <div class="feature">
+            <img src="add-bike.jpg" alt="Add Bike">
+            <h3>Add Your Bike</h3>
+            <p>List your bike for sale in seconds with our simple, user-friendly form.</p>
+        </div>
+        <div class="feature">
+            <img src="real-time-updates.jpg" alt="Real-Time Updates">
+            <h3>Real-Time Updates</h3>
+            <p>Stay updated with instant listings powered by our live backend.</p>
+        </div>
+    </section>
+
+    <!-- Task 3: About Section with YouTube Demo -->
+    <section id="about">
+        <h2>About CycleWorks</h2>
+        <p>Hey, I’m Prince Peter Ojezua! CycleWorks is my passion project, born from my love for cycling and a desire to connect enthusiasts like me. I crafted this as a standout Portfolio Project for ALX in March 2025, pouring my skills into a meaningful endeavor that’s all about making bike trading simple and fun.</p>
+        <p>Created by: Prince Peter Ojezua</p>
+        <ul>
+            <li><i class="fab fa-linkedin social-icon"></i><a href="https://linkedin.com/in/princebrown-ojezua">LinkedIn</a></li>
+            <li><i class="fab fa-github social-icon"></i><a href="https://github.com/PBrown0007">GitHub</a></li>
+            <li><i class="fab fa-twitter social-icon"></i><a href="https://twitter.com/princebrown">Twitter</a></li>
+        </ul>
+        <p>Explore the code: <i class="fab fa-github social-icon"></i><a href="https://github.com/PBrown0007/CycleWorks">CycleWorks on GitHub</a></p>
+        <p>Watch the demo: <i class="fab fa-youtube social-icon"></i><a href="https://youtu.be/5_bPwCiauWE">CycleWorks App Demo</a></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5_bPwCiauWE" frameborder="0" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
